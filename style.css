@@ -1,0 +1,31 @@
+body{
+  width: 940px;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.encabezado{
+  display: flex;
+  /*align-items: center;*/
+  justify-content: space-between;
+}
+
+.nav-menuPrincipal{
+  width: 60%;
+}
+
+.menu-principal{
+  display: flex;
+  justify-content: space-between;
+  /*padding: 0 5px;*/
+}
+
+.redes{  
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  /*margin: 0 5px;*/
+}
+
+
