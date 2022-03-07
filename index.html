@@ -5,22 +5,24 @@
   <head>
     <meta charset="UTF-8">  <!-- diccionario -->
     <title>CV Andrés Przybylko</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="resume.ico" type="image/ico">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
   </head>
   
   <body>
     <header>
       <div class="encabezado">
 	  <!-- <img src="pc.png" alt="icono"> -->
-        <h1>Andrés Przybylko</h1>
+        <h1 class="titulo-encabezado">💻 Andrés Przybylko</h1>
         <nav class="nav-menuPrincipal">
           <ul class="menu-principal">
-            <li><a href="#sobre-mi">Sobre mí</a></li>
+	    <li><a href="#sobre-mi">Sobre mí </a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#hobbies">Hobbies</a></li>
             <li><a href="#formacion">Formación</a></li>
@@ -32,28 +34,34 @@
     </header>
 
     <main>
-      <div class="presentacion">
-        <h2 class="titulo-presentacion">Hola, mi nombre es Andrés Przybylko. Me encanta programar y construyo páginas web.</h2>
-	<p>Estudio Informática en la Universidad del Oeste y estoy participando del programa ONE - Oracle Next Education - en Alura Latam.</p>
-      </div>
-
+      <section class="presentacion">
       <div>
+        <h2 class="subtitulo">Hola, mi nombre es Andrés Przybylko y desarrollo páginas web.</h2>
+	<p>Soy un argentino, músico y docente de 40 años que estudia Informática en la Universidad Nacional del Oeste. Estoy participando del programa ONE - Oracle Next Education - en Alura Latam.</p>
+   
         <ul class="redes">
-          <li><a href="https://github.com/andresprzybylko" target="_blank">Github</a></li>
-	  <li><a href="https://www.linkedin.com/in/andresprzybylko" target="_blank">Linkedin</a></li>
-	  <li><a href="https://www.instagram.com/andresprzybylko" target="_blank">Instagram</a></li>
-          <li><a href="">Curriculum</a></li>
+          <li><a class="red" href="https://github.com/andresprzybylko" target="_blank">Github<img src="flecha.svg" class="flecha-redes"></a></li>
+	  <li><a class="red" href="https://www.linkedin.com/in/andresprzybylko" target="_blank">Linkedin<img src="flecha.svg" class="flecha-redes"></a></li>
+	  <li><a class="red" href="https://www.instagram.com/andresprzybylko" target="_blank">Instagram<img src="flecha.svg" class="flecha-redes"></a></li>
+          <li><a class="red" href="">Curriculum  <img src="flecha.svg" alt="flecha del link" class="flecha-redes"></a></li>
         </ul>
       </div>
 
+      <img class="foto-perfil" src="foto_perfil.jpg" alt="Foto perfil">
+      </section>
+
       <section id="sobre-mi">
-        <h2>Sobre Mí</h2>
-	<p>Soy un apasionado de los lenguajes y de entender su estructura esencial. Comencé con inglés, luego música y ahora programación. Estoy buscando mi primer trabajo en tecnología para ofrecer mis conocimientos y poder crecer en mi carrera. Me entusiasma el desarrollo web, de aplicaciones y el trabajo con datos.</p>
+	<div class="box-sobreMi">
+          <h2 class="subtitulo">Sobre mí</h2>
+	  <p>Soy un apasionado de los lenguajes y de entender su estructura esencial. Comencé con inglés, luego música y ahora programación. Estoy buscando mi primer trabajo en tecnología para ofrecer mis conocimientos y poder crecer en mi carrera. Me entusiasma el desarrollo web, de aplicaciones y el trabajo con datos.</p>
+	  <p>Realice cursos y tutoriales que me permitieron acercarme a la lógica de programación y descubrir mi fascinación por resolver problemas.</p>
+	  <img class="firma" src="firma.png" alt="firma digital">
+	</div>
       </section>
   
       <section class="hobbies-skills">
         <div id="skills">
-	  <h2>Skills</h2>
+	  <h2 class="subtitulo">Skills</h2>
 	  <ul>
 	    <li></li>
 	    <li></li>
@@ -63,7 +71,7 @@
 
         </div>
         <div id="hobbies">
-	  <h2>Hobbies</h2>
+	  <h2 class="subtitulo">Hobbies</h2>
 	  <ul>
 	    <li></li>
 	    <li></li>
@@ -74,7 +82,7 @@
       </section>
   
       <section id="formacion">
-        <h2>Formación Académica</h2>
+        <h2 class="subtitulo">Formación Académica</h2>
 	  <ul>
 	    <li></li>
 	    <li></li>
@@ -84,7 +92,7 @@
       </section>
   
       <section id="experiencia">
-        <h2>Experiencia Profesional</h2>
+        <h2 class="subtitulo">Experiencia Profesional</h2>
 	  <ul>
 	    <li></li>
 	    <li></li>
