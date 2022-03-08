@@ -8,6 +8,7 @@ body{
 .encabezado{
   width: 940px;
   margin: 0 auto;
+  padding: 16px 0 0 0;
   display: flex;
   justify-content: space-between;
 }
@@ -22,7 +23,7 @@ a:link{
 
 a:visited{
   color: #800042;
-}
+}16px 0
 
 a:hover{
   color: orange;
@@ -38,6 +39,37 @@ a:hover{
   font-weight: 500;
 }
 
+  
+
+
+.presentacion{
+  width: 940px;
+  margin: 0 auto;
+  padding: 64px 0;
+  display: flex;
+  align-items: center;
+}
+
+.subtitulo{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.presentacion .subtitulo{
+  font-size: 52px;
+}
+
+.presentacion p{
+  padding: 16px 0;
+  line-height: 32px;
+  font-size: 22px;
+}
+
+.foto-perfil{
+  width: 400px;
+  border-radius: 200px;
+}
+
 .redes{  
   display: flex;
   width: 75%;
@@ -49,33 +81,8 @@ a:hover{
   display: flex;
 }
 
-.red img{
+.flecha-redes{
   padding: 0 5px;
-}
-  
-
-
-.subtitulo{
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.presentacion{
-  width: 940px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
-
-.presentacion .subtitulo{
-  font-size: 52px;
-  font-weight: 700;
-}
-
-
-.foto-perfil{
-  width: 300px;
-  border-radius: 150px;
 }
 
 #sobre-mi{
@@ -83,11 +90,41 @@ a:hover{
   background: #EAF2FD;
 }
 
+#sobre-mi p{
+  padding: 16px 0;
+  line-height: 22px;
+}
+
 .box-sobreMi{
   width: 940px;
   margin: 0 auto;
+  padding: 64px 0;
 }
 
 .firma{
   width: 120px;
+}
+
+.hobbies-skills{
+  width: 940px;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.lista-skills,
+.lista-hobbies{
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 32px 0;
+}
+
+.items-skills,
+.items-hobbies{
+  background: #FFFFFF;
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  width: 15%;
 }
