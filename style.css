@@ -17,17 +17,18 @@ body{
   font-weight: 700;
 }
 
-a:link{
+.link:link{
   color: #464646;
 }
 
-a:visited{
-  color: #800042;
+.link:visited{
+  color: #464646;
 }
 
-a:hover{
+.link:hover{
   color: orange;
 }
+
 
 .nav-menuPrincipal{
   width: 70%;
@@ -38,9 +39,6 @@ a:hover{
   justify-content: space-between;
   font-weight: 500;
 }
-
-  
-
 
 .presentacion{
   width: 940px;
@@ -72,7 +70,7 @@ a:hover{
 
 .redes{  
   display: flex;
-  width: 75%;
+  width: 90%;
   justify-content: space-between;
   font-weight: 500;
 }
@@ -80,11 +78,24 @@ a:hover{
 .red{
   display: flex;
 }
+/*
+.red .fa-solid{
 
-.flecha-redes{
-  padding: 0 5px;
+}
+*/
+.fa-arrow-up-right-from-square{
+  font-size: 14px;
+  padding: 0 10px;
+}
+/*
+.red .fasolid:visited{
+  color:#464646;
 }
 
+.red .fa-solid:hover{
+  color: orange;
+}
+*/
 #sobre-mi{
   width: 100%;
   background: #EAF2FD;
@@ -111,6 +122,10 @@ a:hover{
   padding: 64px 0;
 }
 
+.hobbies-skills .subtitulo{
+  text-align: center;
+}
+
 .lista-skills,
 .lista-hobbies{
   display: flex;
@@ -129,11 +144,120 @@ a:hover{
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-}
-
-.fa-brands,
-.fa-solid{
   font-size: 30px;
   color: #2A7AE4;
-  padding-bottom: 16px;
+}
+/*
+.fa-brands,
+.fa-solid*/
+.items-skills{
+
+}
+
+.texto-items{
+  font-size: 16px;
+  color: #464646;
+  padding-top: 12px;
+}
+
+#formacion{
+  background: #EAF2FD;
+
+}
+
+.box-formacion{
+  width: 940px;
+  margin: 0 auto;
+  padding: 64px 0;  
+}
+
+.box-formacion .subtitulo{
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.institutos{
+  display: flex;
+  justify-content: space-between;
+  flex= 1 1 0px;
+}
+
+.logo-instituto{
+  width: 70%;
+}
+.box-logo{
+  background: #FFFFFF;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 290px;
+  margin: 16px 0;
+}
+
+.titulo-logo{
+  font-size: 22px;
+  font-weight: 700;
+  margin: 8px 0;
+}
+
+.box-experiencia{
+  width: 940px;
+  margin: 0 auto;
+  padding: 64px 0;  
+}
+
+.box-experiencia .subtitulo{
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.box-proyectos{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.proyecto{
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.proyecto img{
+  height: 400px;
+  width: 63%;
+}
+
+.proyecto-reverse{
+  flex-direction: row-reverse;
+}
+
+.datos-proyectos{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+.contacto{
+  background: #EAF2FD;
+  padding: 64px 0;
+}
+
+.box-contacto{
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.datos-contacto{
+  display: flex;
+  flex-direction: column;
 }

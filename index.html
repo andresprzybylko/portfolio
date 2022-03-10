@@ -19,16 +19,15 @@
   <body>
     <header>
       <div class="encabezado">
-	  <!-- <img src="pc.png" alt="icono"> -->
         <h1 class="titulo-encabezado">💻 Andrés Przybylko</h1>
         <nav class="nav-menuPrincipal">
           <ul class="menu-principal">
-	    <li><a href="#sobre-mi">Sobre mí </a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#formacion">Formación</a></li>
-            <li><a href="#experiencia">Proyectos</a></li>
-            <li><a href="#contacto">andres.przybylko@gmail.com</a></li>
+	    <li><a class="link" href="#sobre-mi">Sobre mí </a></li>
+            <li><a class="link" href="#skills">Skills</a></li>
+            <li><a class="link" href="#hobbies">Hobbies</a></li>
+            <li><a class="link" href="#formacion">Formación</a></li>
+            <li><a class="link" href="#experiencia">Proyectos</a></li>
+            <li><a class="link" href="#contacto">andres.przybylko@gmail.com</a></li>
           </ul>
         </nav>
       </div>
@@ -41,10 +40,10 @@
 	<p>Soy argentino, músico y docente. Tengo 40 años y estudio Informática en la Universidad Nacional del Oeste y estoy participando del programa ONE - Oracle Next Education - en Alura Latam.</p>
    
         <ul class="redes">
-          <li><a class="red" href="https://github.com/andresprzybylko" target="_blank">Github<img src="img/flecha.svg" class="flecha-redes"></a></li>
-	  <li><a class="red" href="https://www.linkedin.com/in/andresprzybylko" target="_blank">Linkedin<img src="img/flecha.svg" class="flecha-redes"></a></li>
-	  <li><a class="red" href="https://www.instagram.com/andresprzybylko" target="_blank">Instagram<img src="img/flecha.svg" class="flecha-redes"></a></li>
-          <li><a class="red" href="">Curriculum<img src="img/flecha.svg" alt="flecha del link" class="flecha-redes"></a></li>
+          <li><a class="link" href="https://github.com/andresprzybylko" target="_blank">Github<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+	  <li><a class="link" href="https://www.linkedin.com/in/andresprzybylko" target="_blank">Linkedin<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+	  <li><a class="link" href="https://www.instagram.com/andresprzybylko" target="_blank">Instagram<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+          <li><a class="link" href="">Curriculum<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
         </ul>
       </div>
 
@@ -64,61 +63,110 @@
         <div id="skills">
 	  <h2 class="subtitulo">Skills</h2>
 	  <ul class="lista-skills">
-	    <li class="items-skills"><i class="fa-brands fa-python"></i>Python</li>
-	    <li class="items-skills"><i class="fa-brands fa-js"></i>Javascript</li>
-	    <li class="items-skills"><i class="fa-brands fa-html5"></i>Html5</li>
-	    <li class="items-skills"><i class="fa-brands fa-css3"></i>CSS3</li>
-	    <li class="items-skills"><i class="fa-brands fa-github"></i>Github</li>
-	    <li class="items-skills"><i class="fa-solid fa-language"></i>Ingles | Italiano</li>
+            <li class="items-skills"><i class="logo-hobbies-skills fa-brands fa-python"></i><p class="texto-items">Python</p></li>
+	    <li class="items-skills"><i class="logo-hobbies-skills fa-brands fa-js"></i><p class="texto-items">Javascript</p></li>
+	    <li class="items-skills"><i class="logo-hobbies-skills fa-brands fa-html5"></i><p class="texto-items">Html5</p></li>
+	    <li class="items-skills"><i class="logo-hobbies-skills fa-brands fa-css3"></i><p class="texto-items">CSS3</p></li>
+	    <li class="items-skills"><i class="logo-hobbies-skills fa-brands fa-github"></i><p class="texto-items">Github</p></li>
+	    <li class="items-skills"><i class="logo-hobbies-skills fa-solid fa-language"></i><p class="texto-items">Ingles | Italiano</p></li>
 	  </ul>
 
         </div>
         <div id="hobbies">
 	  <h2 class="subtitulo">Hobbies</h2>
 	  <ul class="lista-hobbies">
-	    <li class="items-hobbies"><i class="fa-solid fa-guitar"></i>Tocar jazz</li>
-	    <li class="items-hobbies"><i class="fa-solid fa-person-biking"></i>Andar en bici</li>
-	    <li class="items-hobbies"><i class="fa-solid fa-plane-departure"></i>Viajar</li>
-	    <li class="items-hobbies"><i class="fa-solid fa-film"></i>Cine y series</li>
-	    <li class="items-hobbies"><i class="fa-solid fa-utensils"></i>Foodie</li>
-	    <li class="items-hobbies"><i class="fa-solid fa-gamepad"></i>Videojuegos</li>
+	    <li class="items-hobbies"><i class="fa-solid fa-guitar"></i><p class="texto-items">Tocar jazz</p></li>
+	    <li class="items-hobbies"><i class="fa-solid fa-person-biking"></i><p class="texto-items">Andar en bici</p></li>
+	    <li class="items-hobbies"><i class="fa-solid fa-plane-departure"></i><p class="texto-items">Viajar</p></li>
+	    <li class="items-hobbies"><i class="fa-solid fa-film"></i><p class="texto-items">Cine y series</p></li>
+	    <li class="items-hobbies"><i class="fa-solid fa-utensils"></i><p class="texto-items">Foodie</p></li>
+	    <li class="items-hobbies"><i class="fa-solid fa-gamepad"></i><p class="texto-items">Videojuegos</p></li>
 	  </ul>
         </div>
       </section>
   
-      <section id="formacion">
-        <h2 class="subtitulo">Formación Académica</h2>
-	  <ul>
-	    <li></li>
-	    <li></li>
-	    <li></li>
-	    <li></li>
-	  </ul>
+      <section id="formacion">	  
+	<div class="box-formacion"> 
+          <h2 class="subtitulo">Formación Académica</h2>
+	    <ul class="institutos">
+	      <li>
+   	        <div class="box-logo">
+	  	  <img class="logo-instituto" src="img/uno.png" alt="logo UNO">
+		</div>  
+	  	<h3 class="titulo-logo">Licenciatura en Informática</h3>
+	  	<p>En curso - Universidad Nacional del Oeste</p>
+	      </li>	    
+	      <li>
+	  	<div class="box-logo">
+		  <img class="logo-instituto" src="img/alura.svg" alt="logo alura">
+		</div>
+	  	<h3 class="titulo-logo">Fullstack developer</h3>
+	  	<p>En curso - Oracle + Alura Latam</p>
+	      </li>	    
+	      <li>
+	  	<div class="box-logo">
+	  	  <img class="logo-instituto" src="img/unsam.png" alt="logo UNSAM">
+		</div>
+	  	<h3 class="titulo-logo">Programación en Python</h3>
+	  	<p>2021 - Universidad Nacional de San Martín</p>
+	      </li>
+	    </ul>
+	</div>
       </section>
   
       <section id="experiencia">
-        <h2 class="subtitulo">Experiencia Profesional</h2>
-	  <ul>
-	    <li></li>
-	    <li></li>
-	    <li></li>
-	    <li></li>
+        <div class="box-experiencia">
+          <h2 class="subtitulo">Experiencia Profesional</h2>
+	  <ul class="box-proyectos">
+	    <li class="proyecto">
+	      <img src="img/encriptador.png" alt="proyecto encriptador de texto">
+	      <div class="datos-proyectos">
+	        <h3 class="titulo-logo">Encriptador de texto</h3>
+	        <p>Challenge Alura Latam Codificador</p>
+	        <div class"botones-proyecto">
+	          <button class="boton-repositorio"><a href="https://github.com/andresprzybylko/encriptador-de-texto" target="_blank">Repositorio</a></button>
+	          <button class="boton-demo"><a href="https://andresprzybylko.github.io/encriptador-de-texto" target="_blank">Ver demo</a></button>
+	        </div>
+	      </div>
+	    </li>
+	    <li class="proyecto proyecto-reverse">
+	      <img src="img/ahorcado.png" alt="proyecto juego del ahorcado">
+	      <div class="datos-proyectos">
+	        <h3 class="titulo-logo">Juego creado con HTML y JavaScript</h3>
+	        <p>Challenge Alura Latam Juego del Ahorcado</p>
+	        <div class"botones-proyecto">
+	          <button class="boton-repositorio"><a href="https://github.com/andresprzybylko/juego-del-ahorcado" target="_blank">Repositorio</a></button>
+	          <button class="boton-demo"><a href="https://andresprzybylko.github.io/juego-del-ahorcado" target="_blank">Ver demo</a></button>
+	        </div>
+	      </div>
+	    </li>
 	  </ul>
+	</div>
       </section>
   
-      <form id="contacto">
+      <form class="contacto" id="contacto">
 	
-        <label for="nombre-apellido">Nombre y Apellido</label>
-        <input type="text" id="nombre-apellido" class="input-padron" required>
+	<div class="box-contacto">
+	  <div class="imagen-contacto">
+            <img src="img/contacto.png">
+	  </div>
+	  
+	  <div class="datos-contacto">
+	    <h2 class="subtitulo">Contacto</h2>
+	    
+            <label for="nombre-apellido">Nombre y Apellido</label>
+            <input type="text" id="nombre-apellido" class="input-padron" required>
   
-        <label for="correo-electronico">Correo Electrónico</label>
-        <input type="email" id="correo-electronico" class="input-padron" required placeholder="email@dominio.com">
+            <label for="correo-electronico">Correo Electrónico</label>
+            <input type="email" id="correo-electronico" class="input-padron" required placeholder="email@dominio.com">
   
-        <label for="telefono">Teléfono</label>
-        <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
   
-        <label for="mensaje">Mensaje</label>
-        <textarea cols="70" rows="10" id="mensaje" required></textarea>
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" required></textarea>
+	  </div>
+	</div>
       </form>
   
     </main>
