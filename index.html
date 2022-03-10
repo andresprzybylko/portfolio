@@ -147,8 +147,8 @@
       <form class="contacto" id="contacto">
 	
 	<div class="box-contacto">
-	  <div class="imagen-contacto">
-            <img src="img/contacto.png">
+	  <div>
+            <img class="imagen-contacto" src="img/contacto.png">
 	  </div>
 	  
 	  <div class="datos-contacto">
@@ -160,11 +160,13 @@
             <label for="correo-electronico">Correo Electrónico</label>
             <input type="email" id="correo-electronico" class="input-padron" required placeholder="email@dominio.com">
   
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+            <label for="telefono">Asunto</label>
+            <input type="tel" id="asunto" class="input-padron" required>
   
             <label for="mensaje">Mensaje</label>
             <textarea cols="70" rows="10" id="mensaje" required></textarea>
+
+	    <button class="boton-enviar-mensaje">Enviar mensaje</button>
 	  </div>
 	</div>
       </form>

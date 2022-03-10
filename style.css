@@ -255,9 +255,22 @@ body{
   width: 940px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
 .datos-contacto{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 55%;
 }
+
+.imagen-contacto{
+  height: 550px;
+}
+
+
+.boton-enviar-mensaje{
+  width: 30%;
+}
+
