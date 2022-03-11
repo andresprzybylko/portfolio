@@ -19,6 +19,7 @@ body{
 
 .link:link{
   color: #464646;
+  transition: 0.4s; 
 }
 
 .link:visited{
@@ -78,30 +79,18 @@ body{
 .red{
   display: flex;
 }
-/*
-.red .fa-solid{
 
-}
-*/
 .fa-arrow-up-right-from-square{
   font-size: 14px;
   padding: 0 10px;
 }
-/*
-.red .fasolid:visited{
-  color:#464646;
-}
 
-.red .fa-solid:hover{
-  color: orange;
-}
-*/
-#sobre-mi{
+.sobre-mi{
   width: 100%;
   background: #EAF2FD;
 }
 
-#sobre-mi p{
+.texto-sobreMi{
   padding: 16px 0;
   line-height: 22px;
 }
@@ -146,12 +135,7 @@ body{
   align-items: flex-start;
   font-size: 30px;
   color: #2A7AE4;
-}
-/*
-.fa-brands,
-.fa-solid*/
-.items-skills{
-
+  box-shadow: 5px 5px 5px grey;
 }
 
 .texto-items{
@@ -162,7 +146,6 @@ body{
 
 #formacion{
   background: #EAF2FD;
-
 }
 
 .box-formacion{
@@ -193,6 +176,7 @@ body{
   justify-content: space-evenly;
   min-width: 290px;
   margin: 16px 0;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .titulo-logo{
@@ -224,10 +208,15 @@ body{
   margin: 16px 0;
 }
 
-.proyecto img{
+.imagen-proyecto{
   height: 400px;
   width: 63%;
+  box-shadow: 5px 5px 10px #0b0e12;
 }
+
+ .texto-proyecto{
+  padding: 8px 0;
+ }
 
 .proyecto-reverse{
   flex-direction: row-reverse;
@@ -240,10 +229,52 @@ body{
   justify-content: center;
 }
 
+.botones-proyecto{
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.boton-repositorio,
+.boton-demo{
+  width: 45%;
+  height: 40px;
+  border: 1px solid #2A7AE4;
+  transition: 1s background;
+  margin: 8px 0;
+}
+
+.boton-repositorio{
+  background: #f5f5f5;
+}
+
+.link-repositorio:link{
+  color: #2A7AE4;
+}
+
+.link-repositorio:visited{
+  color: #2A7AE4;
+}
+
+.boton-demo{
+  background: #2A7AE4;
+}
 
 
+.link-demo:link{
+  color: #FFF;
+}
 
+.link-demo:visited{
+  color: #FFF;
+}
 
+.boton-repositorio:hover,
+.boton-demo:hover{
+  transform: scale(1.1);
+  filter: brightness(1.4);
+  transition: 0.5s; 
+}
 
 
 .contacto{
@@ -269,8 +300,52 @@ body{
   height: 550px;
 }
 
+.box-campo{
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+
+.nombre-campo{
+  padding: 6px;
+}
+
+.campos{
+  background: #FFF;
+  border-style: none;
+  padding: 6px;
+  color: #464646;
+  font-family: 'Raleway', sans-serif;
+}
+
+#mensaje{
+  resize: none;
+}
 
 .boton-enviar-mensaje{
   width: 30%;
+  height: 40px;
+  transition: 1s background;
+  background: #2A7AE4;
+  color: #FFF;
+  border: 1px solid #2A7AE4;
 }
 
+.boton-enviar-mensaje:hover{
+  transform-origin: 0 0;
+  transform: scale(1.1);
+  filter: brightness(1.4);
+  transition: 0.5s; 
+}
+
+footer{
+  padding: 16px;
+} 
+
+.texto-footer{
+  text-align: center;
+  padding: 8px 0;
+}

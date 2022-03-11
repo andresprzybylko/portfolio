@@ -50,3 +50,7 @@ table {
 a, u {
   text-decoration: none;
 }
+
+textarea:focus, input:focus{
+    outline: none;
+}

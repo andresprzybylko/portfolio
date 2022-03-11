@@ -50,10 +50,10 @@
       <img class="foto-perfil" src="img/foto_perfil.jpg" alt="Foto perfil">
       </section>
 
-      <section id="sobre-mi">
+      <section class="sobre-mi" id="sobre-mi">
 	<div class="box-sobreMi">
           <h2 class="subtitulo">Sobre mí</h2>
-	  <p>Soy un apasionado de los lenguajes y de entender su estructura esencial. Comencé con inglés, luego música y ahora programación. Estoy buscando mi primer trabajo en tecnología para ofrecer mis conocimientos y poder crecer en mi carrera. Me entusiasma el desarrollo web, de aplicaciones y el trabajo con datos.</p>
+	  <p class="texto-sobreMi">Soy un apasionado de los lenguajes y de entender su estructura esencial. Comencé con inglés, luego música y ahora programación. Estoy buscando mi primer trabajo en tecnología para ofrecer mis conocimientos y poder crecer en mi carrera. Me entusiasma el desarrollo web, de aplicaciones y el trabajo con datos.</p>
 	  <p>Realicé cursos y tutoriales que me permitieron acercarme a la lógica de programación y descubrir mi fascinación por resolver problemas.</p>
 	  <img class="firma" src="img/firma.png" alt="firma digital">
 	</div>
@@ -118,28 +118,51 @@
         <div class="box-experiencia">
           <h2 class="subtitulo">Experiencia Profesional</h2>
 	  <ul class="box-proyectos">
-	    <li class="proyecto">
-	      <img src="img/encriptador.png" alt="proyecto encriptador de texto">
+	    
+	      <li class="proyecto">
+	      <img class="imagen-proyecto" src="img/encriptador.png" alt="proyecto encriptador de texto">
 	      <div class="datos-proyectos">
 	        <h3 class="titulo-logo">Encriptador de texto</h3>
-	        <p>Challenge Alura Latam Codificador</p>
-	        <div class"botones-proyecto">
-	          <button class="boton-repositorio"><a href="https://github.com/andresprzybylko/encriptador-de-texto" target="_blank">Repositorio</a></button>
-	          <button class="boton-demo"><a href="https://andresprzybylko.github.io/encriptador-de-texto" target="_blank">Ver demo</a></button>
+	        <p class="texto-proyecto">Challenge Alura Latam Codificador</p>
+	        <div class="botones-proyecto">
+	          
+		  <button class="boton-repositorio">
+		    <a class="link-repositorio" href="https://github.com/andresprzybylko/encriptador-de-texto" target="_blank">
+		      Repositorio
+		    </a>
+		  </button>
+
+	          <button class="boton-demo">
+		    <a class="link-demo" href="https://andresprzybylko.github.io/encriptador-de-texto" target="_blank">
+		      Ver demo
+		    </a>
+		  </button>
+		  
 	        </div>
 	      </div>
 	    </li>
+	    
 	    <li class="proyecto proyecto-reverse">
-	      <img src="img/ahorcado.png" alt="proyecto juego del ahorcado">
+	      <img class="imagen-proyecto" src="img/ahorcado.png" alt="proyecto juego del ahorcado">
 	      <div class="datos-proyectos">
 	        <h3 class="titulo-logo">Juego creado con HTML y JavaScript</h3>
-	        <p>Challenge Alura Latam Juego del Ahorcado</p>
-	        <div class"botones-proyecto">
-	          <button class="boton-repositorio"><a href="https://github.com/andresprzybylko/juego-del-ahorcado" target="_blank">Repositorio</a></button>
-	          <button class="boton-demo"><a href="https://andresprzybylko.github.io/juego-del-ahorcado" target="_blank">Ver demo</a></button>
+	        <p class="texto-proyecto">Challenge Alura Latam Juego del Ahorcado</p>
+	        
+		<div class="botones-proyecto">
+	          <button class="boton-repositorio">
+		    <a class="link-repositorio" href="https://github.com/andresprzybylko/juego-del-ahorcado" target="_blank">
+		      Repositorio
+		    </a>
+		  </button>
+	          <button class="boton-demo">
+		    <a class="link-demo" href="https://andresprzybylko.github.io/juego-del-ahorcado" target="_blank">
+		      Ver demo
+		    </a>
+		  </button>
 	        </div>
 	      </div>
 	    </li>
+
 	  </ul>
 	</div>
       </section>
@@ -153,20 +176,28 @@
 	  
 	  <div class="datos-contacto">
 	    <h2 class="subtitulo">Contacto</h2>
-	    
-            <label for="nombre-apellido">Nombre y Apellido</label>
-            <input type="text" id="nombre-apellido" class="input-padron" required>
-  
-            <label for="correo-electronico">Correo Electrónico</label>
-            <input type="email" id="correo-electronico" class="input-padron" required placeholder="email@dominio.com">
-  
-            <label for="telefono">Asunto</label>
-            <input type="tel" id="asunto" class="input-padron" required>
-  
-            <label for="mensaje">Mensaje</label>
-            <textarea cols="70" rows="10" id="mensaje" required></textarea>
+	   
+	    <div class="box-campo">
+              <label for="nombre-apellido" class="nombre-campo">Nombre y Apellido</label>
+              <input type="text" id="nombre-apellido" class="campos" placeholder="John Doe" required>
+	    </div>
 
-	    <button class="boton-enviar-mensaje">Enviar mensaje</button>
+	    <div class="box-campo">
+              <label for="correo-electronico" class="nombre-campo">Correo Electrónico</label>
+              <input type="email" id="correo-electronico" class="campos" placeholder="email@dominio.com" required>
+	    </div>
+  
+	    <div class="box-campo">
+              <label for="asunto" class="nombre-campo">Asunto</label>
+              <input type="tel" id="asunto" class="campos" placeholder="Pedido de presupuesto" required>
+	    </div>
+  
+	    <div class="box-campo">
+              <label for="mensaje" class="nombre-campo">Mensaje</label>
+              <textarea cols="70" rows="10" class="campos" id="mensaje" placeholder="Estimado Andres..." required></textarea>
+	    </div>
+
+	    <button class="boton-enviar-mensaje" type="submit">Enviar mensaje</button>
 	  </div>
 	</div>
       </form>
@@ -175,8 +206,8 @@
   </body>
   
   <footer>
-    <p>Desarrollado por Andrés Przybylko<p>	
-    <p>2022</p>
+    <p class="texto-footer">Desarrollado por Andrés Przybylko<p>	
+    <p class="texto-footer">2022</p>
   </footer>
 
 </html>
