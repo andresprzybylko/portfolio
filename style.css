@@ -1,38 +1,17 @@
 body{
+  width: 100%;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #464646;
   background: #f5f5f5;
 }
 
-.encabezado{
-  width: 940px;
+.container-encabezado{
+  max-width: 940px;
   margin: 0 auto;
-  padding: 16px 0 0 0;
+  padding: 1.5rem 0 0 0;
   display: flex;
   justify-content: space-between;
-}
-
-.titulo-encabezado{
-  font-weight: 700;
-}
-
-.link:link{
-  color: #464646;
-  transition: 0.4s; 
-}
-
-.link:visited{
-  color: #464646;
-}
-
-.link:hover{
-  color: orange;
-}
-
-
-.nav-menuPrincipal{
-  width: 70%;
 }
 
 .menu-principal{
@@ -41,32 +20,53 @@ body{
   font-weight: 500;
 }
 
-.presentacion{
-  width: 940px;
+.nav-menuPrincipal{
+  width: 70%;
+}
+
+.titulo-encabezado{
+  font-weight: 700;
+}
+
+.enlace:link{
+  color: #464646;
+  transition: 0.4s; 
+}
+
+.enlace:visited{
+  color: #464646;
+}
+
+.enlace:hover{
+  color: orange;
+}
+
+.container-presentacion{
+  max-width: 940px;
   margin: 0 auto;
-  padding: 64px 0;
+  padding: 4rem 0;
   display: flex;
   align-items: center;
 }
 
 .subtitulo{
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
 }
 
-.presentacion .subtitulo{
-  font-size: 52px;
+.container-presentacion .subtitulo{
+  font-size: 3rem;
 }
 
-.presentacion p{
-  padding: 16px 0;
-  line-height: 32px;
-  font-size: 22px;
+.texto-presentacion{
+  padding: 1rem 0;
+  line-height: 2rem;
+  font-size: 1.75rem;
 }
 
 .foto-perfil{
-  width: 400px;
-  border-radius: 200px;
+  width: 25rem;
+  border-radius: 12.5rem;
 }
 
 .redes{  
@@ -81,8 +81,8 @@ body{
 }
 
 .fa-arrow-up-right-from-square{
-  font-size: 14px;
-  padding: 0 10px;
+  font-size: 0.8rem;
+  padding: 0 0.6px;
 }
 
 .sobre-mi{
@@ -91,24 +91,24 @@ body{
 }
 
 .texto-sobreMi{
-  padding: 16px 0;
-  line-height: 22px;
+  padding: 1rem 0;
+  line-height: 1.1rem;
 }
 
-.box-sobreMi{
-  width: 940px;
+.container-sobreMi{
+  max-width: 940px;
   margin: 0 auto;
-  padding: 64px 0;
+  padding: 4rem 0;
 }
 
 .firma{
-  width: 120px;
+  width: 8rem;
 }
 
 .hobbies-skills{
-  width: 940px;
+  max-width: 940px;
   margin: 0 auto;
-  padding: 64px 0;
+  padding: 4rem 0;
 }
 
 .hobbies-skills .subtitulo{
@@ -118,30 +118,30 @@ body{
 .lista-skills,
 .lista-hobbies{
   display: flex;
-  height: 150px;
+  height: 9rem;
   justify-content: space-between;
   width: 100%;
-  padding: 32px 0;
+  padding: 2rem 0;
 }
 
 .items-skills,
 .items-hobbies{
   background: #FFFFFF;
   display: flex;
-  padding: 16px;
+  padding: 1rem;
   width: 12%;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  font-size: 30px;
+  font-size: 2rem;
   color: #2A7AE4;
   box-shadow: 5px 5px 5px grey;
 }
 
 .texto-items{
-  font-size: 16px;
+  font-size: 1rem;
   color: #464646;
-  padding-top: 12px;
+  padding-top: 0.8rem;
 }
 
 #formacion{
@@ -149,20 +149,20 @@ body{
 }
 
 .box-formacion{
-  width: 940px;
+  max-width: 940px;
   margin: 0 auto;
-  padding: 64px 0;  
+  padding: 4rem 0;  
 }
 
 .box-formacion .subtitulo{
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .institutos{
   display: flex;
   justify-content: space-between;
-  flex= 1 1 0px;
+  flex: 1 1 30%;*/
 }
 
 .logo-instituto{
@@ -175,7 +175,7 @@ body{
   align-items: center;
   justify-content: space-evenly;
   min-width: 290px;
-  margin: 16px 0;
+  margin: 1rem 0;
   box-shadow: 5px 5px 5px grey;
 }
 
@@ -186,14 +186,14 @@ body{
 }
 
 .box-experiencia{
-  width: 940px;
+  max-width: 940px;
   margin: 0 auto;
-  padding: 64px 0;  
+  padding: 4rem 0;  
 }
 
 .box-experiencia .subtitulo{
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .box-proyectos{
@@ -205,17 +205,17 @@ body{
 .proyecto{
   display: flex;
   justify-content: space-between;
-  margin: 16px 0;
+  margin: 1.5rem 0;
 }
 
 .imagen-proyecto{
-  height: 400px;
-  width: 63%;
-  box-shadow: 5px 5px 10px #0b0e12;
+  height: 20rem;
+  width: 55%;
+  box-shadow: 0.3rem 0.3rem 0.6rem #0b0e12;
 }
 
  .texto-proyecto{
-  padding: 8px 0;
+  padding: 0.5rem 0;
  }
 
 .proyecto-reverse{
@@ -238,10 +238,10 @@ body{
 .boton-repositorio,
 .boton-demo{
   width: 45%;
-  height: 40px;
+  height: 2rem;
   border: 1px solid #2A7AE4;
   transition: 1s background;
-  margin: 8px 0;
+  margin: 0.5rem 0;
 }
 
 .boton-repositorio{
@@ -283,7 +283,7 @@ body{
 }
 
 .box-contacto{
-  width: 940px;
+  max-width: 940px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -319,6 +319,7 @@ body{
   padding: 6px;
   color: #464646;
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
 }
 
 #mensaje{
@@ -327,7 +328,7 @@ body{
 
 .boton-enviar-mensaje{
   width: 30%;
-  height: 40px;
+  height: 2rem;
   transition: 1s background;
   background: #2A7AE4;
   color: #FFF;
@@ -347,5 +348,62 @@ footer{
 
 .texto-footer{
   text-align: center;
-  padding: 8px 0;
+  padding: 0.5rem 0;
+}
+
+/* MEDIA QUERIES */
+/* Tablet        */
+
+@media screen and (max-width: 768px){
+   
+  .container-encabezado,
+  .container-presentacion,
+  .container-sobreMi{
+    max-width: 768px;
+    padding: 1rem;
+  }
+
+  .menu-principal{
+    visibility: hidden;
+    margin:0; 
+    padding:0; 
+  }
+
+  .menu-principal li:last-child{
+    visibility: visible;
+  }
+
+  .container-presentacion .subtitulo {
+    font-size: 1.5rem;
+  }
+  
+  .texto-presentacion{
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .foto-perfil{
+    width: 10rem;
+    border-radius: 5rem;
+  }
+  
+  .subtitulo{
+    font-size: 1.5rem;
+  }
+
+  .texto-sobreMi{
+    width: 90%;
+    padding: 1rem 0;
+  }
+
+  .lista-skills, .lista-hobbies {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+  }
+
+  .items-skills, .items-hobbies {
+    width: 25%;
+    margin: 1rem 0;
 }
