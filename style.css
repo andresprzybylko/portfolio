@@ -278,7 +278,6 @@ body{
   transition: 0.5s; 
 }
 
-
 .contacto{
   background: #EAF2FD;
   padding: 4rem 0;
@@ -296,11 +295,11 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 55%;
+  width: 45%;
 }
 
 .imagen-contacto{
-  height: 35rem;
+  height: 40rem;
 }
 
 .box-campo{
